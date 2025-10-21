@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-22T04:05:31 IST" name="Default suite" finished-at="2025-10-22T04:05:35 IST" duration-ms="4032">
+    <groups>
+      <group name="emptyCart">
+        <method signature="EmptyCartCheckoutTest.emptyCartCheckout()[pri:0, instance:test.EmptyCartCheckoutTest@557caf28]" name="emptyCartCheckout" class="test.EmptyCartCheckoutTest"/>
+      </group> <!-- emptyCart -->
+      <group name="login">
+        <method signature="LoginTest.validateLogin()[pri:0, instance:test.LoginTest@292b08d6]" name="validateLogin" class="test.LoginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2025-10-22T04:05:31 IST" name="Default test" finished-at="2025-10-22T04:05:35 IST" duration-ms="4032">
+      <class name="test.EmptyCartCheckoutTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:test.EmptyCartCheckoutTest@557caf28]" started-at="2025-10-22T04:05:27 IST" name="setUpDriver" finished-at="2025-10-22T04:05:31 IST" duration-ms="4264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="emptyCartCheckout()[pri:0, instance:test.EmptyCartCheckoutTest@557caf28]" started-at="2025-10-22T04:05:34 IST" name="emptyCartCheckout" depends-on-groups="login" finished-at="2025-10-22T04:05:35 IST" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartCheckout -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:test.EmptyCartCheckoutTest@557caf28]" started-at="2025-10-22T04:05:35 IST" name="tearDownDriver" finished-at="2025-10-22T04:05:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- test.EmptyCartCheckoutTest -->
+      <class name="test.LoginTest">
+        <test-method signature="validateLogin()[pri:0, instance:test.LoginTest@292b08d6]" started-at="2025-10-22T04:05:31 IST" name="validateLogin" finished-at="2025-10-22T04:05:34 IST" duration-ms="2706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
